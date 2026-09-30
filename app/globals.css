@@ -1,24 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600;700&display=swap');
 @import "tailwindcss";
 
 @theme {
-  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
-  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
-  --color-background: oklch(1 0 0);
-  --color-foreground: oklch(0.145 0 0);
-  --color-card: oklch(1 0 0);
-  --color-card-foreground: oklch(0.145 0 0);
-  --color-primary: oklch(0.205 0 0);
-  --color-primary-foreground: oklch(0.985 0 0);
-  --color-secondary: oklch(0.97 0 0);
-  --color-secondary-foreground: oklch(0.205 0 0);
-  --color-muted: oklch(0.97 0 0);
-  --color-muted-foreground: oklch(0.556 0 0);
-  --color-accent: oklch(0.97 0 0);
-  --color-accent-foreground: oklch(0.205 0 0);
+  --font-sans: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif;
+  --font-display: 'Playfair Display', ui-serif, Georgia, serif;
+
+  /* Café Tostado Color Palette */
+  --color-cream: #FAF6F1;
+  --color-cream-dark: #F5EDE4;
+  --color-coffee: #8B5A2B;
+  --color-espresso: #2C1810;
+  --color-taupe: #9C8B7A;
+
+  --color-background: #FAF6F1;
+  --color-foreground: #2C1810;
+  --color-card: #FFFFFF;
+  --color-card-foreground: #2C1810;
+  --color-primary: #8B5A2B;
+  --color-primary-foreground: #FAF6F1;
+  --color-secondary: #F5EDE4;
+  --color-secondary-foreground: #2C1810;
+  --color-muted: #F5EDE4;
+  --color-muted-foreground: #9C8B7A;
+  --color-accent: #8B5A2B;
+  --color-accent-foreground: #FAF6F1;
   --color-destructive: oklch(0.577 0.245 27.325);
-  --color-border: oklch(0.922 0 0);
-  --color-input: oklch(0.922 0 0);
-  --color-ring: oklch(0.708 0 0);
+  --color-border: #E8DED3;
+  --color-input: #E8DED3;
+  --color-ring: #8B5A2B;
   --radius: 0.5rem;
 }
 
@@ -29,5 +38,13 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: var(--font-sans);
   }
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-display);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
 }
