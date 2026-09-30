@@ -5,29 +5,29 @@
   --font-sans: 'Source Sans 3', ui-sans-serif, system-ui, sans-serif;
   --font-display: 'Playfair Display', ui-serif, Georgia, serif;
 
-  /* Café Tostado Color Palette */
-  --color-cream: #FAF6F1;
-  --color-cream-dark: #F5EDE4;
-  --color-coffee: #8B5A2B;
-  --color-espresso: #2C1810;
-  --color-taupe: #9C8B7A;
+  /* Café Tostado Color Palette - Warm Coffee Tones */
+  --color-cream: #FDF6EC;
+  --color-cream-dark: #F5EBDC;
+  --color-coffee: #C9973E;
+  --color-espresso: #3A2618;
+  --color-taupe: #A68A64;
 
-  --color-background: #FAF6F1;
-  --color-foreground: #2C1810;
-  --color-card: #FFFFFF;
-  --color-card-foreground: #2C1810;
-  --color-primary: #8B5A2B;
-  --color-primary-foreground: #FAF6F1;
-  --color-secondary: #F5EDE4;
-  --color-secondary-foreground: #2C1810;
-  --color-muted: #F5EDE4;
-  --color-muted-foreground: #9C8B7A;
-  --color-accent: #8B5A2B;
-  --color-accent-foreground: #FAF6F1;
+  --color-background: #FDF6EC;
+  --color-foreground: #3A2618;
+  --color-card: #FFFAF5;
+  --color-card-foreground: #3A2618;
+  --color-primary: #C9973E;
+  --color-primary-foreground: #FDF6EC;
+  --color-secondary: #F5EBDC;
+  --color-secondary-foreground: #3A2618;
+  --color-muted: #F5EBDC;
+  --color-muted-foreground: #A68A64;
+  --color-accent: #C9973E;
+  --color-accent-foreground: #FDF6EC;
   --color-destructive: oklch(0.577 0.245 27.325);
-  --color-border: #E8DED3;
-  --color-input: #E8DED3;
-  --color-ring: #8B5A2B;
+  --color-border: #E8DDCC;
+  --color-input: #E8DDCC;
+  --color-ring: #C9973E;
   --radius: 0.5rem;
 }
 
