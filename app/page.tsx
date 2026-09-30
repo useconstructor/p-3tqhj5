@@ -191,6 +191,54 @@ export default function Home() {
       {/* Testimonials */}
       <TestimonialsCarousel />
 
+      {/* Club Tostado - Loyalty Program */}
+      <section id="club" className="py-24 bg-espresso">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
+            <p className="text-coffee font-medium tracking-wide uppercase mb-4">Programa de Lealtad</p>
+            <h2 className="font-display text-4xl md:text-5xl font-semibold text-cream mb-4">
+              Club Tostado
+            </h2>
+            <p className="text-cream/70 text-lg max-w-2xl mx-auto">
+              Únete a nuestra comunidad exclusiva de amantes del café y disfruta de beneficios únicos cada vez que nos visitas.
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+            <div className="text-center p-6">
+              <div className="w-16 h-16 bg-coffee/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Coffee className="w-8 h-8 text-coffee" />
+              </div>
+              <h3 className="font-display text-xl font-semibold text-cream mb-2">Puntos por Compra</h3>
+              <p className="text-cream/70">Acumula 1 punto por cada $1,000 COP. Canjea tus puntos por bebidas, granos o merchandise exclusivo.</p>
+            </div>
+            <div className="text-center p-6">
+              <div className="w-16 h-16 bg-coffee/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Award className="w-8 h-8 text-coffee" />
+              </div>
+              <h3 className="font-display text-xl font-semibold text-cream mb-2">Recompensas Exclusivas</h3>
+              <p className="text-cream/70">Bebida gratis en tu cumpleaños, acceso anticipado a nuevos tuestes y descuentos especiales solo para miembros.</p>
+            </div>
+            <div className="text-center p-6">
+              <div className="w-16 h-16 bg-coffee/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                <Users className="w-8 h-8 text-coffee" />
+              </div>
+              <h3 className="font-display text-xl font-semibold text-cream mb-2">Eventos VIP</h3>
+              <p className="text-cream/70">Invitaciones a catas privadas, talleres de barista y lanzamientos de ediciones limitadas antes que nadie.</p>
+            </div>
+          </div>
+
+          <div className="text-center">
+            <Button asChild size="lg" className="bg-coffee hover:bg-coffee/90 h-14 px-10 text-lg">
+              <a href="#pricing">
+                Unirse al Club
+                <ArrowRight className="w-5 h-5 ml-2" />
+              </a>
+            </Button>
+          </div>
+        </div>
+      </section>
+
       {/* Reservation Form */}
       <ReservationForm />
 
